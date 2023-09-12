@@ -2,6 +2,8 @@ import mysql from 'mysql';
 import dotenv from 'dotenv';
 dotenv.config();
 
+//VARIABLE
+const port = process.env.PORT || 8081;
 const dbPassword = process.env.DB_PASSWORD;
 const dbHost = process.env.DB_HOST;
 const dbUser = process.env.DB_USER;
